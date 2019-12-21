@@ -8,26 +8,32 @@
     <title>Sawyer Fisher</title>
 
     <!--Linking to font-->
-    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
 
     <!--Linking to Bootstrap CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!--Link to CSS Style Sheet-->
-    
+
     <!--Internal CSS styles-->
     <style>
-    .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #4aaaa5;
-   color: white;
-   text-align: center;
-   font-size: 12px;
-}
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #4aaaa5;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        
     </style>
 
 </head>
@@ -36,7 +42,8 @@
 <header>
     <div class="container">
         <nav class="navbar bg-light">
-            <span class="navbar-text">
+            <span class="navbar-text" style="background-color: #4aaaa5;
+            padding: 20px; font-size: larger; max-width: 100%;">
                 Sawyer K. Fisher
             </span>
 
@@ -64,8 +71,8 @@
         <hr>
         <div class="row">
 
-            <div class="col"> <img class="img-thumbnail" src="../assets/received_362080701173221.jpg" alt="pic of Sawyer"
-                    width="240px" height="300px">
+            <div class="col"> <img class="img-thumbnail img-fluid" src="../assets/received_362080701173221.jpg"
+                    alt="pic of Sawyer" width="240px" height="300px">
             </div>
             <div class="col-8">
                 <p> Hello world, Sawyer here! I was born and raised in the great state of Minnesota. Lorem, ipsum dolor
