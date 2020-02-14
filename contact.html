@@ -12,18 +12,27 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    
+
     <style>
-    .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #4aaaa5;
-   color: white;
-   text-align: center;
-   font-size: 12px;
-}
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #4aaaa5;
+            color: white;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        /* Modify the backgorund color */
+        .navbar-custom {
+            background-color: #4aaaa5;
+        }
+
+        .nav-link {
+            color: white;
+        }
     </style>
 
 </head>
@@ -31,7 +40,7 @@
 <!--Header Portion of the Page-->
 <header>
     <div class="container">
-        <nav class="navbar bg-dark">
+        <nav class="navbar navbar-custom">
             <span class="navbar-text text-white">
                 Sawyer K. Fisher
             </span>
@@ -58,23 +67,23 @@
             <h2 class="h2contact">Contact</h2>
         </section>
         <hr>
-        
+
         <form>
             <div class="form-group">
                 <label for="nameInput">Name:</label>
                 <input type="name" class="form-control" id="nameFormControlInput1" placeholder="John Doe">
-              </div>
+            </div>
 
-              <div class="form-group">
+            <div class="form-group">
                 <label for="emailInput">Email:</label>
                 <input type="email" class="form-control" id="emailFormControlInput1" placeholder="JohnDoe@gmail.com">
-              </div>
-              <div class="form-group">
+            </div>
+            <div class="form-group">
                 <label for="messageFormControlTextarea1">Message:</label>
                 <textarea class="form-control" id="messageFormControlTextarea1" rows="3"></textarea>
                 <br><button type="submit" class="btn btn-primary mb-2">Submit Message</button>
-              </div>
-            
+            </div>
+
 
         </form>
     </main>
