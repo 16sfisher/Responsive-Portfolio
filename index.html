@@ -18,12 +18,18 @@
 
     <!--Internal CSS styles-->
     <style>
+        body {
+            background-color: #808080;
+            background-image: url("https://www.transparenttextures.com/patterns/little-pluses.png");
+            /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+        }
+
         .footer {
             position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #4aaaa5;
+            background-color: black;
             color: white;
             text-align: center;
             font-size: 12px;
@@ -47,10 +53,18 @@
             opacity: 0.7;
         }
 
+        .text-white {
+            color: #fff !important;
+            font-size: 40px;
+        }
+
         /* Modify the backgorund color */
         .navbar-custom {
-            background-color: #4aaaa5;
+            background-color: initial;
+            border: 2px solid white;
+            margin-top: 10px;
         }
+
         .nav-link {
             color: white;
         }
@@ -105,8 +119,10 @@
                 </p>
                 <p style="text-align: center;"><b>Email:</b> sawyersfakeone@gmail<br><b>Phone: </b>763-200-6071<br><a
                         href="https://www.linkedin.com/in/sawyer-fisher-0bb65b178/" target="_blank"
-                        class="fa fa-linkedin" title="Link to My Linkedin"></a><a href="https://github.com/16sfisher" target="_blank"
-                        class="fa fa-github" title="Link to My Github"></a><a href="assets/Sawyer_Fisher_Resume (1).pdf" target="_blank" class="fa fa-file-pdf-o" title="Link to My Resume"></a>
+                        class="fa fa-linkedin" title="Link to My Linkedin"></a><a href="https://github.com/16sfisher"
+                        target="_blank" class="fa fa-github" title="Link to My Github"></a><a
+                        href="assets/Sawyer_Fisher_Resume (1).pdf" target="_blank" class="fa fa-file-pdf-o"
+                        title="Link to My Resume"></a>
                 </p>
                 <br>
                 <br>
@@ -118,7 +134,7 @@
         Give it a click if you like.
     </div>
 
-    <div class="alert alert-primary text-center" role="alert">
+    <div class="alert alert-dark text-center" role="alert">
         Interested in Music and Merchandise coming out of Minneapolis?? <a href="https://www.skibbrand.com/"
             class="alert-link">Skib Brand</a>. Give it a click if you like.
     </div>

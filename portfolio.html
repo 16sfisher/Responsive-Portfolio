@@ -13,12 +13,17 @@
 
 
     <style>
+         body {
+            background-color: #808080;
+            background-image: url("https://www.transparenttextures.com/patterns/little-pluses.png");
+            /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+        }
         .footer {
             position: fixed;
             left: 0;
             bottom: 0;
             width: 100%;
-            background-color: #4aaaa5;
+            background-color: black;
             color: white;
             text-align: center;
             font-size: 12px;
@@ -26,11 +31,23 @@
 
         /* Modify the backgorund color */
         .navbar-custom {
-            background-color: #4aaaa5;
+            background-color: initial;
+            border: 2px solid white;
+            margin-top: 10px;
+        }
+        .text-white {
+            color: #fff !important;
+            font-size: 40px;
         }
 
         .nav-link {
             color: white;
+        }
+        .small,
+        small {
+            font-size: 80%;
+            font-weight: 400;
+            color: black;
         }
     </style>
 
